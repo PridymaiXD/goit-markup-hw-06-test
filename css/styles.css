@@ -725,7 +725,6 @@ and (min-resolution: 2x) {
 
 .list-our-team {
     display: flex;
-    align-items: center;
         justify-content: center;
         flex-direction: column;
         gap: 72px;
@@ -884,7 +883,7 @@ column-gap: calc((100% - 48px) / 2);
         .our-portfolio-list {
                 flex-direction: row;
             Flex-wrap: wrap;
-                        gap: 24px;
+                        
                             row-gap: 48px;
                             column-gap: 24px;
         }
@@ -906,6 +905,10 @@ column-gap: calc((100% - 48px) / 2);
             row-gap: 48px;
             column-gap: 24px;
         }
+
+                .our-portfolio-item {
+                    width: calc((100% - 72px) / 4);
+                }
 }
 
 .our-portfolio-content {
