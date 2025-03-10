@@ -594,6 +594,7 @@ and (min-resolution: 2x) {
     }
 
 .list-features {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     gap: 72px;
@@ -725,6 +726,7 @@ and (min-resolution: 2x) {
 
 .list-our-team {
     display: flex;
+    align-items: center;
         justify-content: center;
         flex-direction: column;
         gap: 72px;
