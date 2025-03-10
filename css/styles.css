@@ -691,6 +691,7 @@ and (min-resolution: 2x) {
 
 .list-features {
     display: flex;
+    padding: 0 156px;
     gap: 24px;
 }
 
