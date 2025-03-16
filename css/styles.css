@@ -635,11 +635,10 @@ and (min-resolution: 2x) {
 display: flex;
     flex-wrap: wrap;
             flex-direction: column calc((100% - 24px) / 2);
-            
         }
 
-        .features-list-item {
-            width: calc((100% - 24px) / 2);
+        .fetures-list-item {
+        width: calc((100% - 24px) / 2);
         }
 
 .benefits-item-text {
